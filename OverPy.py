@@ -60,6 +60,6 @@ class Player:
                 for items in range(items_to_parse):
                     a = parsed_page.xpath("""//*[@id="competitive"]/section[3]/div/div[{}]/div[{}]/div/table/tbody/tr[{}]/td[1]""".format(str(heroes + 2), str(categories + 1), str(items + 1)))
                     b = parsed_page.xpath("""//*[@id="competitive"]/section[3]/div/div[{}]/div[{}]/div/table/tbody/tr[{}]/td[2]""".format(str(heroes + 2), str(categories + 1), str(items + 1)))
-                    stats[hero][a[0].text.upper()] = b[0].text.upper()
+                    stats[hero][a[0].text] = b[0].text
 
         return stats

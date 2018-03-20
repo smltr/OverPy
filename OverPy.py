@@ -36,18 +36,3 @@ class Overpy_Player:
 
         return stats
 
-Cyrk = Overpy_Player('en-us', 'pc', 'Cyrk-1234')
-print(Cyrk.get_all_heros())
-
-#//*[@id="competitive"]/section[3]/div/div[2]/div[1]/div/table/tbody/tr[1]/td[1]
-#//*[@id="competitive"]/section[3]/div/div[2]/div[4]/div/table/thead/tr/th/h5
-#//*[@id="competitive"]/section[3]/div/div[2]/div[3]/div/table/thead/tr/th/h5
-#//*[@id="competitive"]/section[3]/div/div[2]/div[1]/div/table/tbody/tr[1]/td[1]
-#//*[@id="competitive"]/section[3]/div/div[2]/div[1]/div/table/tbody/tr[2]/td[1]
-#//*[@id="competitive"]/section[3]/div/div[2]/div[1]/div/table/tbody/tr[2]/td[2]
-#BARRIER DAMAGE DONE
-#//*[@id="competitive"]/section[3]/div/div[2]/div[1]/div/table/tbody/tr[1]/td[1]
-#194,722
-#//*[@id="competitive"]/section[3]/div/div[2]/div[1]/div/table/tbody/tr[1]/td[2]
-#MELEE FINAL BLOWS
-#//*[@id="competitive"]/section[3]/div/div[2]/div[1]/div/table/tbody/tr[2]/td[1]

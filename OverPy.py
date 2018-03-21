@@ -5,7 +5,7 @@ import requests
 import lxml
 from lxml import etree
 
-class Player:
+class Overpy:
 
     def __init__(self, region, platform, username):
         self.region = region

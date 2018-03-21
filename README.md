@@ -6,9 +6,9 @@ requests
 lxml
 
 ### How to use
-Import OverPy and the Player class
+Import OverPy and the Overpy class
 ```Python
-from overpy import Player
+from overpy import Overpy
 ```
 
 You will need to create an instance of the 'Overpy' class as follows

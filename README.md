@@ -39,3 +39,5 @@ stats['REAPER']['Time Spent on Fire']
 
 I will work on making the capitilization more intuitive for the dictionary.
 
+NOTE: as of now this only retrieves competitive stats.
+

@@ -11,10 +11,10 @@ Import OverPy and the Player class
 from overpy import Player
 ```
 
-You will need to create an instance of the 'Player' class as follows
+You will need to create an instance of the 'Overpy' class as follows
 
 ```Python
-cyrk = Player('en-us', 'pc', 'Cyrk-1234')
+cyrk = Overpy('en-us', 'pc', 'Cyrk-1234')
 ```
 The strings passed are in the order of: region, platform, BattleTag(replacing the # with a -).
 

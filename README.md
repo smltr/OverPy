@@ -6,32 +6,26 @@ requests
 lxml
 
 ## Usage
-Import OverPy and the Overpy class
+Import OverPy and the overpy function
 ```Python
-from overpy import Overpy
+from overpy import overpy
 ```
 
-Create an instance of the 'Overpy' class as follows
+Use the 'Overpy' function as follows
 
 ```Python
-joe = Overpy('en-us', 'pc', 'joe-1234')
+player_stats = overpy('en-us', 'pc', 'Player-1234')
 ```
 The strings passed are in the order of: region, platform, BattleTag(replacing the # with a -).
 
 You must enter the full BattleTag including the trailing numbers.
 
-Use the ```get_stats()``` method to gather player statistics. This method returns a dictionary.
-
-```Python
-stats = joe.get_stats()
-```
-
 NOTE: there will be a delay while the scraper is running.
 
-Retrieve statistics from the nested dictionary as follows:
+Retrieve statistics from the returned dictionary as follows:
 
 ```Python
-stats['ALL HEROES']['Eliminations']
+player_stats['ALL HEROES']['Eliminations']
 >>>'1,169'
 stats['REAPER']['Time Spent on Fire']
 >>>'05:08'
